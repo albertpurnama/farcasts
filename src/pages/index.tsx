@@ -251,8 +251,8 @@ const Home: NextPage = () => {
         <div className={styles.containerInner}>
           <div className="flex flex-col justify-center align-middle m-4">
             <h1 className="text-3xl font-medium text-center">Farcasts</h1>
-            <p className="text-l text-center">Claim your Farcast handle.</p>
-            <p className="text-center text-xs text-gray-500">Learn more about <a href="https://farcasts.xyz" className="hover:underline">Farcasts</a></p>
+            <p className="text-l text-center">Claim your Farcaster handle.</p>
+            <p className="text-center text-xs text-gray-500">Learn more about <a href="https://farcaster.xyz" className="hover:underline">Farcaster</a></p>
           </div>
           <ConnectButton />
           {
