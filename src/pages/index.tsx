@@ -183,8 +183,8 @@ const RegistrationForm = () => {
           className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="hosturi" type="text" placeholder="https://your-host-uri.com" />
       </div>
       <div className="flex items-center justify-between">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" disabled={isPrepareWriteError || !write || isLoading}>
-          {isLoading ? "Registering..." : "Register"}
+        <button className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" type="submit" disabled={isPrepareWriteError || !write || isLoading}>
+          {isLoading ? "Claiming..." : "Claim!"}
         </button>
       </div>
       <div>
